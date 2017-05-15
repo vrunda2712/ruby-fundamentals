@@ -9,12 +9,12 @@ while (quantity > 0)
  puts "3.olive"
  puts "4.sweet corn"
  puts "5.paneer"
- puts "-----------------------------"
+ puts "--------------------------"
 
  topping = gets.to_i
- puts "You have ordered a pizza with #{topping} toppings"
  quantity -= 1
 
 end
 
-puts "thank you for order"
+puts "You have ordered a pizza with #{topping} toppings"
+puts "Thank you for your order"
