@@ -1,4 +1,6 @@
+#use of get method
 puts "what is your name?"
 
-name = "Vrunda"
-puts "I am #{name}"
+#name ="Vrunda"
+name = gets
+puts "Hi #{name}"
